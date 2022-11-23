@@ -1,3 +1,12 @@
+// nav sitio web
+document.getElementById("icon-menu").addEventListener("click", mostrar_menu);
+
+function mostrar_menu(){
+
+    document.getElementById("move-content").classList.toggle('move-container-all');
+    document.getElementById("show-menu").classList.toggle('show-lateral');
+}
+
 //arreglo que contiene las respuestas correctas
 
 let correctas = [4, 3, 1, 1, 2, 3, 2, 4, 3, 2, 2, 1, 3, 2, 4];

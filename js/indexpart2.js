@@ -2,6 +2,15 @@
 
 let correctas = [3,3,1,2,2,3,2,3,2,3,3,3];
 
+// nav sitio web
+document.getElementById("icon-menu").addEventListener("click", mostrar_menu);
+
+function mostrar_menu(){
+
+    document.getElementById("move-content").classList.toggle('move-container-all');
+    document.getElementById("show-menu").classList.toggle('show-lateral');
+}
+
 //arreglo donde se guardan las respuestas del usuario
 
 let opcion_elegida=[];
