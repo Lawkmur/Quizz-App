@@ -14,6 +14,11 @@ a{
     color: white
 }
 
+.tituloTV{
+    font-weight: 900;
+    font-size: 20px;
+}
+
 a:focus,
 a:hover {
   color: #154E81;
