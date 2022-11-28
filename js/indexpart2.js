@@ -1,6 +1,6 @@
 //arreglo que contiene las respuestas correctas
 
-let correctas = [3,3,1,2,2,3,2,3,2,3,3,3];
+let correctas = [3,3,1,2,2,3];
 
 // nav sitio web
 document.getElementById("icon-menu").addEventListener("click", mostrar_menu);
@@ -57,7 +57,7 @@ function corregir() {
     //obtener todos los radio del formulario
     let radios = document.querySelectorAll("input[type=radio]:checked");
 
-    if (radios.length <= 11) {
+    if (radios.length <= 5) {
         alert("No has respondido ninguna pregunta");
         return;
     }

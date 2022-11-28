@@ -172,7 +172,7 @@ a:hover {
 
       /*ANIMACION*/
       .cajita img{
-        padding: 0px 10px;
+        padding: 0px 100px;
       }
       .image01 {
         transition: transform .3s; 
@@ -658,7 +658,7 @@ a:hover {
   color: #81B001 !important;
 }
 
-.navbar-toggle {
+.-toggle {
   border: 1px solid #fff;
   border-radius: 0;
 }
@@ -863,7 +863,7 @@ a:hover {
   width: 80%;
 }
 .portfolio-block .caption h4 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
 }
 .portfolio-block .caption h4 a {
